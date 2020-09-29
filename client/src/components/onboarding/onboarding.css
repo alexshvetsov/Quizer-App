@@ -1,0 +1,52 @@
+.onboarding{
+    height: 100%;
+    width: 100%; 
+    background-color: #eaeaea;
+
+}
+ 
+
+   
+.fadeOut{
+    animation: fadeOut 2s forwards ease-in; 
+    display: flex; 
+    position: fixed;
+    background-color: transparent ;
+}
+
+  .fadeIn {  
+    display: flex;
+    position: absolute;
+    top: 6rem;
+    width: 100%;
+    height: calc(100% - 6rem);
+  animation: fadeIn 4s forwards ease-out; 
+
+}
+
+@keyframes fadeOut {
+0% {
+  opacity: 1;
+  width: 100%;
+  height: calc(100% - 6rem);
+}
+
+100% { 
+  opacity: 0;
+  height: 0;
+  width: 0; 
+
+  }
+
+
+}  
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+}
+
+  100% {
+      opacity: 1; 
+    }
+} 

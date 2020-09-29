@@ -1,0 +1,50 @@
+{
+  "name": "yarkoni",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "24.0.18",
+    "@types/js-cookie": "^2.2.6",
+    "@types/node": "12.7.4",
+    "@types/react": "16.9.2",
+    "@types/react-dom": "16.9.0",
+    "@types/react-router-dom": "^5.1.3",
+    "js-cookie": "^2.2.1",
+    "react": "^16.9.0",
+    "react-cookie": "^1.0.5",
+    "react-dom": "^16.9.0",
+    "react-elastic-carousel": "^0.6.4",
+    "react-responsive-carousel": "^3.2.8",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.1.1",
+    "redux": "^4.0.5",
+    "typescript": "3.6.2",
+    "universal-cookie": "^4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/brainhubeu__react-carousel": "^1.15.0"
+  },
+  "proxy": "http://localhost:3001"
+
+}

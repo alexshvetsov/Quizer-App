@@ -1,0 +1,177 @@
+.login{
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.login__form{
+    box-shadow: 1rem 1rem 0rem;
+    width: 45rem;  
+    z-index: 1212;
+
+} 
+
+.login__header{
+    clip-path: polygon(100% 100%, 100% 0%, 0% 0%, 0% 100%, 48% 100%, 50% 90%, 52% 100%);
+    background-color: #282830;
+    border-top-left-radius: 0.25rem; 
+    border-top-right-radius: 0.25rem;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem; 
+}
+
+.login__body{
+    padding: 1.5rem; 
+    background-color: #fff; 
+}
+
+.login__input{
+    box-sizing: border-box; 
+    width: 100%;
+    border: 0.0625em solid #e5e5e5;
+    padding: 1em 1.25em;  
+    height: 7rem; 
+    font-size: 1.6rem;  
+}
+
+.login__username{
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.login__password{
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.login__footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;   
+    background-color: #fff; 
+    padding: 1rem 1.5rem ;
+
+}
+
+.login__button{
+    background-color: #1dabb8;
+    border-radius: 0.25rem;
+    color: #fff;
+    font-weight: 700;
+    padding: 1.5rem; 
+    transition: all .2s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.login__button:hover{
+    background-color: #198d98; 
+}
+
+.login__switchForm{
+    align-self: center; 
+    font-size: 1.6rem; 
+    font-family: sans-serif; 
+    font-weight: bold; 
+
+}
+
+.login__switchForm>span{
+    cursor: pointer;
+    transition: all .2s;
+
+}
+
+.login__switchForm>span:hover{
+    color: #198d98;    
+}
+
+.login__loginSocial{
+    text-decoration: none;
+    background-color: #fff; 
+    padding: 1.5rem;
+  
+}
+
+a:active, a:focus, a:link{
+    text-decoration: none;
+}
+
+.login__p {
+    text-align: center;
+    padding: 1.5rem;
+    margin: 0; 
+    font-size: 1.6rem; 
+    position: relative ;
+  }
+
+ 
+
+  .login__pText::before,
+  .login__pText::after{
+      display: inline-block; 
+      content: "";  
+      border-bottom: 1px solid black;
+      width: 42%; 
+      position: absolute;
+    
+  }
+
+  .login__pText::after{
+    top: 50%;
+    left: 53%;
+    
+  }
+
+  .login__pText::before{
+    top: 50%;
+    right: 53%;
+  }
+
+  .login__google{
+      display: flex; 
+      width: fit-content;
+      border: 1px solid  #4285f4; 
+      margin: 0 auto;  
+      align-items: center; 
+      background-color: #4285f4; 
+      justify-content: center;
+  }
+
+  .login__googleImg{
+      background-color: #fff;
+      max-width: 4rem;
+      padding: .5rem;
+  }
+
+  .login__googleIcon{
+      width: 100%;
+      height: 100%;
+  }
+
+  .login__googleText{
+      align-self: stretch; 
+      color: #fff;
+      font-size: 1.6rem; 
+      margin: auto .5rem; 
+  }
+
+  .disabled{
+    background-color: #1dabb83a;
+    cursor:not-allowed;
+  }
+
+.login__errMessage{
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: inherit;
+    color:  #ff8080;
+}
+
+

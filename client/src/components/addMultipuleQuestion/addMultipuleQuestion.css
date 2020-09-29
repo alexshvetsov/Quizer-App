@@ -1,0 +1,183 @@
+.addMultipuleQuestion{
+    box-sizing: border-box;
+    padding: 1.5rem 2rem;
+    height: 10rem; 
+    overflow: hidden;
+    position: relative; 
+    transition: all 0s ease-in;   
+}
+
+.addMultipuleQuestion__checkbox-label{
+    cursor: pointer;
+    color: #494949 !important; 
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 20px;
+    border: 4px solid #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+}
+ 
+.addMultipuleQuestion__checkbox-label:hover {
+    color: #ffffff !important;
+    background: #f6b93b;
+    border-color: #f6b93b !important;
+    transition: all 0.4s ease 0s;
+    }
+
+.expend{
+    transition: all 1s ease-in;  
+    position: absolute;
+    top: 0;
+    left: 0;   
+    width: 100%;
+    height: 100%;
+    background-color:rgba(120,120,120,.8); 
+    z-index: 100;
+}
+
+.addMultipuleQuestion__checkbox:checked ~.addMultipuleQuestion__checkbox-label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    font-size: 1.6rem;
+    background-color:rgba(120,120,120,.8); 
+}
+.addMultipuleQuestion__checkbox{
+    visibility: hidden;
+}
+
+ 
+.addMultipuleQuestion__headline{
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative; 
+    margin-top: 1rem;
+
+}
+
+.addMultipuleQuestion__checkbox:checked ~.addMultipuleQuestion__form{
+    max-width: 40rem;
+    margin: 0 auto; 
+    box-shadow: 1rem 1rem 1rem; 
+    background-color: white;
+    text-align: center;
+    position: relative; 
+    padding: 4rem; 
+
+
+}
+
+.addMultipuleQuestion__form-group{
+    position: relative; 
+}
+.addMultipuleQuestion__textArea{
+    min-width: 30rem;
+    min-height: 10rem;
+    margin: 1.5rem 0; 
+    padding: 1rem; 
+    background-color:#DCDCDC ; 
+    border:none;
+}
+
+.addMultipuleQuestion__label{
+    position: absolute;
+    color:black ;  
+    top: -4px;   
+    left:-1.3rem; 
+    font-size: 1.6rem ;
+    font-family: sans-serif;  
+    transform: translateY(-1.3rem);
+    transition: all .3s;
+}
+
+.addMultipuleQuestion__textArea:placeholder-shown + .addMultipuleQuestion__label {
+    left: 1.5rem;
+    color:transparent ; 
+    transform: translateY(2rem);
+} 
+
+ .addMultipuleQuestion__textArea:focus{
+     background-color: white;
+     outline: none; 
+     border: none;
+}
+
+ .addMultipuleQuestion__textArea::placeholder {
+    color: black;  
+    font-size: 1.6rem ;
+    font-family: sans-serif;
+    padding: 1rem;
+}
+
+ .addMultipuleQuestion__textArea:focus ~ .input__underline,
+ .addMultipuleQuestion__input:focus ~ .input__underline{
+ width: calc(75% + 6rem) ; 
+ margin: 0 auto;  
+ background-color: aqua; 
+}
+
+.addMultipuleQuestion__input{
+    width: 30rem;
+    border: none;
+    padding: 1rem 0;
+    margin: 2rem 5px;   
+    font-size: 1.6rem;
+    background-color:#DCDCDC ; 
+
+    
+}
+
+.addMultipuleQuestion__input:focus{
+    outline: none;
+    background-color: white; 
+}
+
+.addMultipuleQuestion__input::placeholder {
+    font-size: 1.6rem ; 
+    font-family: sans-serif;
+    padding: 1rem;
+}
+
+.addMultipuleQuestion__input-label{
+    position: absolute;
+    color: black; 
+    top: 2.5rem;
+    left:-1.3rem;
+    opacity: 1;
+    transition: all .3s;
+}
+
+.addMultipuleQuestion__input:placeholder-shown + .addMultipuleQuestion__input-label {
+    left: 1rem;
+    opacity: 0;
+}
+
+
+.input__underline{
+    height: 3px;  
+    background-color: white;
+    width: 0;
+    transition: all 2s; 
+    transform: translateY(calc(-2.3rem));
+    margin: 0 auto;
+} 
+
+.addMultipuleQuestion__select{
+    font-size: 1.6rem;
+    border: none; 
+    background-color:#DCDCDC ; 
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+
+}
+
+.addMultipuleQuestion__select:focus{
+    outline: none;
+    border-bottom: 3px solid aqua;
+
+
+}

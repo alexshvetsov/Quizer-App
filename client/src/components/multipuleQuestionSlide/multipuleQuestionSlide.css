@@ -1,0 +1,59 @@
+.multipuleQuestionSlide {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 1rem; 
+    height: 100%;
+} 
+
+.multipuleQuestionSlide__index {
+    text-align: center;
+    font-weight: bold;
+    font-size: inherit;
+}
+
+.multipuleQuestionSlide__index::before {
+    content: "-  ";
+}
+
+.multipuleQuestionSlide__index::after {
+    content: " -";
+}
+
+.multipuleQuestionSlide__question {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.multipuleQuestionSlide__answers {
+    margin: 0 auto;
+}
+
+.multipuleQuestionSlide__answer {
+    transition: all .5s;
+}
+
+.multipuleQuestionSlide__showAnswer {
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+    background: rgb(135,169,107);
+    font-size: 2.6rem;
+    margin: 0 auto;
+    transition: all .4s;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.multipuleQuestionSlide__showAnswer:hover {
+    background-color: rgba(127, 255, 0, 1);
+}
+
+.correctAnswer {
+    background: rgb(135,169,107);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

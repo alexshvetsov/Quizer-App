@@ -1,0 +1,26 @@
+.checkQuiz{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.checkQuiz--center{
+    border: 1px solid black;
+    width: 25%;  
+    padding: 2rem 1rem;  
+} 
+
+
+.checkQuiz__controllers{
+    display: flex;
+    justify-content: space-around; 
+    padding: 1rem; 
+}
+
+.checkQuiz__results{
+    font-size: 2rem; 
+    text-align:center;
+}

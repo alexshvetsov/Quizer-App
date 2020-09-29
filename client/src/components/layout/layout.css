@@ -1,0 +1,13 @@
+.layout {
+    /* background: linear-gradient(90deg, rgba(106,168,166,1) 19%, rgba(209,245,251,1) 68%); */
+    display: grid;  
+    grid-template-rows: 6rem calc(100vh - 6rem) 
+}
+
+.main {
+    overflow: scroll;
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+}

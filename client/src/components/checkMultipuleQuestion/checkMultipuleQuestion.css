@@ -1,0 +1,37 @@
+.checkMultipuleQuestion{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem; 
+    justify-content: center;
+    align-items:center; 
+}
+.checkMultipuleQuestion__index {
+    text-align: center;
+    font-weight: bold;
+    font-size: inherit;
+}
+ 
+.checkMultipuleQueston__answer{ 
+    text-align: left; 
+    padding: 1rem 0.4rem;  
+}
+
+.checkMultipuleQuestion__index::before {
+    content: "-  ";
+}
+
+.checkMultipuleQuestion__index::after {
+    content: " -";
+}
+
+.wrong{
+    background-color: #ff9999;
+    border-radius: .5rem; 
+}
+
+.correct{
+    background-color:  #b3ffb3 ;
+    border-radius: .5rem; 
+    width: fit-content; 
+
+ }

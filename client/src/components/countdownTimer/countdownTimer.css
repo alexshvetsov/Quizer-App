@@ -1,0 +1,53 @@
+.countdownTimer{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    background-color: #282830;
+    color: #fff; 
+} 
+
+.countdownTimer__controllers{
+    display: flex;
+    justify-content: space-around;
+}
+
+.countdownTimer__button{ 
+    cursor: pointer; 
+    padding: 1rem 2rem;  
+    outline:none; 
+    border: none; 
+    text-decoration:uppercase;
+    font-size: 1.6rem;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    transition: all .3s;   
+}  
+
+.countdownTimer__button:active{ 
+    background-color: burlywood;  
+    box-shadow: 0 5px #666; 
+    transform: translateY(4px);
+    transition: all 3;  
+} 
+
+.countdownTimer__clock{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.countdownTimer__section{
+    text-align: center; 
+    padding: 1rem;
+    font-weight: bold;
+     font-size: 1.8rem;
+}
+
+.start{ 
+    background-color:rgba(173,255,47, .5) ;
+}
+  
+.finish{ 
+    background-color:rgba(255, 0, 0, 0.8) ;   
+}
